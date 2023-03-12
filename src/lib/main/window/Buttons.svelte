@@ -39,16 +39,16 @@
     right: 0px;
   }
   #right-arrow:hover {
-    right: -10px;
+    right: 5px;
   }
   #right-arrow:active {
-    right: -30px;
+    right: -10px;
   }
   #left-arrow:hover {
-    right: 10px;
+    right: -5px;
   }
   #left-arrow:active {
-    right: 30px;
+    right: 10px;
   }
 
   .in-article-section {

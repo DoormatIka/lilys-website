@@ -3,20 +3,20 @@
   import Buttons from "./window/Buttons.svelte"
   
   const eachPhoto = [
-    { photo: "yuyuko.jpg", 
+    { photo: "https://media.discordapp.net/attachments/1061320413373808741/1082722576314400858/yuyuko.jpg", 
       href: "https://konachan.com/post/show/353385/cherry_blossoms-cui_-jidanhaidaitang-fan-flowers-p", 
       desc: "Yuyuko in the cherry blossoms."
     },
-    { photo: "suwawako.jpg", 
+    { photo: "https://media.discordapp.net/attachments/1061320413373808741/1082722568747896927/suwawako.jpg", 
       href: "https://konachan.com/post/show/353380/cui_-jidanhaidaitang-flowers-moriya_suwako-sleepin",
       desc: "Suwako for Corgi www", 
     },
-    { photo: "kogasa.jpg",
-      href: "#",
-      desc: "I will have sweaty hard mating sex with her."
+    { photo: "https://media.discordapp.net/attachments/1061320413373808741/1082722567439274136/kogasa.jpg",
+      href: "https://gelbooru.com/index.php?page=post&s=view&id=4566161",
+      desc: "very cute umbrella girl"
     },
-    { photo: "mefrfr.jpg",
-      href: "#",
+    { photo: "https://media.discordapp.net/attachments/1061320413373808741/1082722567934185522/mefrfr.jpg",
+      href: "https://www.pixiv.net/en/artworks/104653730",
       desc: "Kimono."
     }
   ]
@@ -64,7 +64,10 @@
         {/each}
       </div>
     <div class="article-info article-section">
-
+      <img src="svelte.svg" alt="" style="padding: 1em;" draggable="false" />
+      <p>Made with love with Svelte.</p>
+      <p style="color: rgba(255, 255, 255, 0.5); font-size: x-small;">I just started 3 days ago so.. please pardon the bugs!</p>
+      
     </div>
     <!-- Put Buttons.svelte here -->
     <Buttons next={next} previous={previous}/>
@@ -76,6 +79,12 @@
     cursor:none;
   }
 
+  .article-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
   .article-description-section {
     display: flex;
     align-content: center;

@@ -20,7 +20,7 @@
     <h2>Alice's Website</h2>
   </div>
   <div id="nav-link-section" class="nav-section">
-    <a href="/about" use:link draggable="false">ABOUT</a>
+    <a href="/lilys-website/about" use:link draggable="false">ABOUT</a>
     <a href="#" draggable="false">PROJECTS</a>
   </div>
   <div id="nav-social-section" class="nav-section">

@@ -7,6 +7,6 @@
 
 
 <Router>
-  <Route path="/" component={Main}/>
-  <Route path="/about" component={About} />
+  <Route path="/lilys-website" component={Main}/>
+  <Route path="/lilys-website/about" replace component={About} />
 </Router>
